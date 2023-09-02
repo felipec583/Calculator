@@ -1,11 +1,11 @@
-let precio = 400000;
+let price = 400000;
 let quantityValue = 0;
 let addBtn = document.querySelector(".add-btn");
 let subtractBtn = document.querySelector(".subtract-btn");
 let total = document.querySelector(".valor-total");
 let quantity = document.querySelector(".cantidad");
 let priceSpan = document.querySelector(".precio-inicial");
-priceSpan.innerHTML = precio;
+priceSpan.innerHTML = price;
 
 function Addup() {
   quantity.innerHTML = ++quantityValue;
