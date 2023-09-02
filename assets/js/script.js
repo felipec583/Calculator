@@ -4,8 +4,8 @@ let addBtn = document.querySelector(".add-btn");
 let subtractBtn = document.querySelector(".subtract-btn");
 let total = document.querySelector(".valor-total");
 let quantity = document.querySelector(".cantidad");
-let precioSpan = document.querySelector(".precio-inicial");
-precioSpan.innerHTML = precio;
+let priceSpan = document.querySelector(".precio-inicial");
+priceSpan.innerHTML = precio;
 
 function Addup() {
   quantity.innerHTML = ++quantityValue;
