@@ -9,12 +9,12 @@ priceSpan.innerHTML = price;
 
 function Addup() {
   quantity.innerHTML = ++quantityValue;
-  total.innerHTML = precio * quantityValue;
+  total.innerHTML = price * quantityValue;
 }
 
 function takeAway() {
   quantity.innerHTML = --quantityValue;
-  total.innerHTML = precio * quantityValue;
+  total.innerHTML = price * quantityValue;
   if (quantityValue < 0) {
     quantity.innerHTML = ++quantityValue;
     total.innerHTML = 0;
